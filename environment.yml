@@ -1,0 +1,12 @@
+name: mlops-learning
+channels:
+  - conda-forge
+dependencies:
+  - jupyter
+  - matplotlib >= 3.8
+  - pip >= 24.0
+  - python = 3.12
+  - scikit-learn
+  - pytest
+  - numpy:
+    - -r requirements.txt
